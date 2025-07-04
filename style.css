@@ -76,3 +76,42 @@
   font-weight: lighter;
   background-color: #6b7280;
 }
+
+.content {
+  padding: 0 0 100px 0;
+}
+
+.title-content {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin: 36px 0;
+}
+
+.square {
+  border: 5px solid #3882F6;
+  height: 140px;
+  width: 140px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+
+.flex-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+}
+
+.text-content {
+  text-align: center;
+}
